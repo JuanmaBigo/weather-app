@@ -193,3 +193,26 @@ height: 100px;
         opacity: 1;
     }
 }
+
+
+@media screen and (max-width: 425px){
+    .container{
+        width: 90%;
+    }
+
+    .humidity, .wind{
+        width: 100px !important;
+        height: 50px;
+        padding: 0 !important;
+    }
+    .humidity span, .wind span{
+        font-size: 19px;
+    }
+    .humidity p, .wind p{
+        font-size: 13px;
+    }
+    .weather-details{
+        gap: 5px;
+    }
+}
+    
